@@ -1,0 +1,40 @@
+body {
+  font-family: "Amiri", serif;
+  background: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+.harf-container {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); */
+  gap: 10px;
+  margin-top: 30px;
+}
+.harf-card {
+  background: white;
+  padding: 14px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.harf-card:hover {
+  transform: scale(1.03);
+  background: #d8f3dc;
+}
+.harf {
+  font-size: 46px;
+  margin-bottom: 10px;
+}
+.shakl {
+  font-size: 34px;
+  margin-top: 5px;
+}
+audio {
+  display: none;
+}
+.resorce {
+  margin: 50px;
+  font-size: 23px;
+  font-style: italic;
+}
