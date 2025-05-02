@@ -7,6 +7,10 @@ body {
   margin: auto;
 }
 
+h1 {
+  text-align: center;
+}
+
 .accordion {
   background-color: #ffffff;
   color: #2c3e50;
@@ -40,4 +44,45 @@ body {
   padding: 15px 0;
   line-height: 1.8;
   font-size: 16px;
+}
+
+.btn {
+  border-color: #d8f3dc;
+  border-radius: 10px;
+  margin-left: -23em;
+}
+
+.btn:hover {
+  background: #d8f3dc;
+  transform: scale(1.03);
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #2df047;
+  font-size: 1.9rem;
+  margin-right: 24px;
+  cursor: pointer;
+  font-family: "Cairo", sans-serif;
+}
+
+li a:hover {
+  color: black;
+}
+
+.mashq button {
+  padding: 10px 40px;
+  border-color: #d8f3dc;
+  border-radius: 10px;
+  font-size: 25px;
+  /* margin: 20px; */
+}
+
+.mashq button:hover {
+  background: #d8f3dc;
+  transform: scale(1.03);
 }
