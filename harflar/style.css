@@ -6,7 +6,6 @@ body {
 }
 .harf-container {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); */
   gap: 10px;
   margin-top: 30px;
 }
@@ -37,4 +36,33 @@ audio {
   margin: 50px;
   font-size: 23px;
   font-style: italic;
+}
+
+.btn {
+  /* border: none; */
+  border-color: #d8f3dc;
+  border-radius: 10px;
+  margin-left: 86em;
+}
+
+.btn:hover {
+  background: #d8f3dc;
+  transform: scale(1.03);
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #2df047;
+  font-size: 1.9rem;
+  margin-left: 29px;
+  cursor: pointer;
+  font-family: "Cairo", sans-serif;
+}
+
+li a:hover {
+  color: black;
 }
