@@ -79,6 +79,7 @@ li a:hover {
   border-color: #d8f3dc;
   border-radius: 10px;
   font-size: 25px;
+  display: flex;
   /* margin: 20px; */
 }
 

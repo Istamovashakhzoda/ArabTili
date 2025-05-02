@@ -109,36 +109,3 @@ function nextQuestion() {
 }
 
 showQuestion();
-
-//   function checkAnswer(button, correct) {
-//     const result = document.getElementById("result");
-//     if (correct) {
-//       result.innerHTML = "✅ To‘g‘ri! Bu amr zamonidir.";
-//       result.style.color = "green";
-//     } else {
-//       result.innerHTML = "❌ Noto‘g‘ri, yana urinib ko‘ring.";
-//       result.style.color = "red";
-//     }
-//   }
-
-//   function checkMudariAnswer(button, correct) {
-//     const result = document.getElementById("mudari-result");
-//     if (correct) {
-//       result.innerHTML = "✅ To‘g‘ri! Bu mudāri‘ (hozirgi/kelajak) fe’lidir.";
-//       result.style.color = "green";
-//     } else {
-//       result.innerHTML = "❌ Noto‘g‘ri, bu mudāri‘ emas.";
-//       result.style.color = "red";
-//     }
-//   }
-
-//   function checkMadiAnswer(button, correct) {
-//     const result = document.getElementById("madi-result");
-//     if (correct) {
-//       result.innerHTML = "✅ To‘g‘ri! Bu maḍiy (o‘tgan zamon) fe’lidir.";
-//       result.style.color = "green";
-//     } else {
-//       result.innerHTML = "❌ Noto‘g‘ri, bu maḍiy emas.";
-//       result.style.color = "red";
-//     }
-//   }
