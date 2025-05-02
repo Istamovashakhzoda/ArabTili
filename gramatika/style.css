@@ -19,7 +19,7 @@ h1 {
   margin: 10px 0;
   border: none;
   text-align: right;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
   transition: 0.3s ease;
   border-radius: 10px;
@@ -43,16 +43,16 @@ h1 {
 .panel p {
   padding: 15px 0;
   line-height: 1.8;
-  font-size: 16px;
+  font-size: 20px;
 }
 
-.btn {
+.btnw {
   border-color: #d8f3dc;
   border-radius: 10px;
   margin-left: -23em;
 }
 
-.btn:hover {
+.btnw:hover {
   background: #d8f3dc;
   transform: scale(1.03);
 }
@@ -74,16 +74,64 @@ li a:hover {
   color: black;
 }
 
-.mashq button {
-  padding: 10px 40px;
-  border-color: #d8f3dc;
+.container {
+  max-width: 850px;
+  margin: auto;
+  background: white;
+  padding: 25px;
   border-radius: 10px;
-  font-size: 25px;
-  display: flex;
-  /* margin: 20px; */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-
-.mashq button:hover {
-  background: #d8f3dc;
-  transform: scale(1.03);
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #00695c;
+}
+ul,
+li {
+  margin-bottom: 10px;
+}
+.example {
+  background-color: #e0f2f1;
+  padding: 10px;
+  border-left: 5px solid #00796b;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+table,
+th,
+td {
+  border: 1px solid #bbb;
+}
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+.highlight {
+  color: #00796b;
+  font-weight: bold;
+}
+button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 19px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #004d40;
+}
+#result {
+  margin-top: 10px;
+  font-weight: bold;
 }

@@ -109,3 +109,79 @@ function nextQuestion() {
 }
 
 showQuestion();
+
+// ismlar
+
+function checkIsmAnswer(button, correct) {
+  const result = document.getElementById("ism-result");
+  if (correct) {
+    result.innerHTML = "✅ To‘g‘ri! Bu ma’rifa ism.";
+    result.style.color = "green";
+  } else {
+    result.innerHTML = "❌ Bu nakira ism. Ma’rifa ismda 'ال' bo‘ladi.";
+    result.style.color = "red";
+  }
+}
+
+function checkMubtadoAnswer(button, correct) {
+  const result = document.getElementById("mubtado-result");
+  if (correct) {
+    result.innerHTML = "✅ To‘g‘ri! Mubtado‘ va xabar to‘g‘ri bog‘lanadi.";
+    result.style.color = "green";
+  } else {
+    result.innerHTML = "❌ Noto‘g‘ri. Mubtado‘ va xabar to‘g‘ri bog‘lanmagan.";
+    result.style.color = "red";
+  }
+}
+
+function checkIsmAnswer(button, correct) {
+  const result = document.getElementById("ism-result");
+  if (correct) {
+    result.innerHTML = "✅ To‘g‘ri! Bu ma’rifa ism.";
+    result.style.color = "green";
+  } else {
+    result.innerHTML = "❌ Bu nakira ism.";
+    result.style.color = "red";
+  }
+}
+
+function checkAnswer(correct) {
+  const result = document.getElementById("result");
+  if (correct) {
+    result.innerHTML = "✅ To‘g‘ri! Bu mubtado’ va xabarli ismiy jumla.";
+    result.style.color = "green";
+  } else {
+    result.innerHTML = "❌ Noto‘g‘ri. Bu jumla boshqa tuzilmada.";
+    result.style.color = "red";
+  }
+}
+
+function checkAnswer1(correct) {
+  const result = document.getElementById("result1");
+  result.innerHTML = correct ? "✅ To‘g‘ri!" : "❌ Noto‘g‘ri!";
+  result.style.color = correct ? "green" : "red";
+}
+function checkAnswer2(correct) {
+  const result = document.getElementById("result2");
+  result.innerHTML = correct
+    ? "✅ To‘g‘ri – mubtado’ bu ‘al-muallim’."
+    : "❌ Noto‘g‘ri.";
+  result.style.color = correct ? "green" : "red";
+}
+function checkAnswer3(correct) {
+  const result = document.getElementById("result3");
+  result.innerHTML = correct ? "✅ To‘g‘ri – bu xabar." : "❌ Noto‘g‘ri.";
+  result.style.color = correct ? "green" : "red";
+}
+function checkAnswer4(correct) {
+  const result = document.getElementById("result4");
+  result.innerHTML = correct ? "✅ To‘g‘ri – ismiy jumla bu." : "❌ Noto‘g‘ri.";
+  result.style.color = correct ? "green" : "red";
+}
+function checkAnswer5(correct) {
+  const result = document.getElementById("result5");
+  result.innerHTML = correct
+    ? "✅ To‘g‘ri – bu holatda xabar boshida kelgan."
+    : "❌ Noto‘g‘ri.";
+  result.style.color = correct ? "green" : "red";
+}
