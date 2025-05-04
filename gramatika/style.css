@@ -164,3 +164,25 @@ button:hover {
   border-color: #e53e3e;
   color: #742a2a;
 }
+
+.btn-option {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn-option:hover {
+  background-color: #e2e8f0;
+}
+.correct {
+  background-color: #a7f3d0;
+  border-color: #34d399;
+}
+.wrong {
+  background-color: #fecaca;
+  border-color: #f87171;
+}

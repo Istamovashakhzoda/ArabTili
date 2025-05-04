@@ -200,3 +200,15 @@ function checkAnswer(button, correct) {
     }
   });
 }
+
+function checkAnswer(button, correctLetter) {
+  const buttons = button.parentElement.querySelectorAll("button");
+  buttons.forEach((btn) => {
+    btn.disabled = true;
+    if (btn.textContent.trim().startsWith(correctLetter + ")")) {
+      btn.classList.add("correct");
+    } else {
+      btn.classList.add("wrong");
+    }
+  });
+}
