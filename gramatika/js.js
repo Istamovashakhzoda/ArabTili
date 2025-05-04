@@ -185,3 +185,18 @@ function checkAnswer5(correct) {
     : "❌ Noto‘g‘ri.";
   result.style.color = correct ? "green" : "red";
 }
+
+function checkAnswer(button, correct) {
+  const buttons = button.parentElement.querySelectorAll("button");
+  buttons.forEach((btn) => {
+    btn.disabled = true;
+    if (
+      (correct === "C" && btn.textContent.includes("C)")) ||
+      (correct === "C2" && btn.textContent.includes("C)"))
+    ) {
+      btn.classList.add("correct");
+    } else {
+      btn.classList.add("wrong");
+    }
+  });
+}
