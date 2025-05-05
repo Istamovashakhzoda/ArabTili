@@ -48,26 +48,61 @@ h1 {
 
 .btn {
   display: flex;
-  flex-direction: row;
-  border-color: #d8f3dc;
-  border-radius: 10px;
+  justify-content: space-between;
 }
 
-.btn li {
+.page1 {
+  width: 150px;
+  height: 49px;
+  background-color: #004d40;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+
+.page1:hover {
+  cursor: pointer;
+  color: black;
+  transform: scale(1.03);
+}
+
+.page1 li {
   list-style: none;
+  text-align: center;
 }
 
-.btn a {
+.page1 a {
   text-decoration: none;
-  color: #2df047;
+  color: white;
   font-size: 1.9rem;
-  margin-right: 24px;
   cursor: pointer;
   font-family: "Cairo", sans-serif;
 }
 
-.btn a:hover {
+.page2 {
+  width: 150px;
+  height: 49px;
+  background-color: #004d40;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+
+.page2:hover {
+  cursor: pointer;
   color: black;
+  transform: scale(1.03);
+}
+
+.page2 li {
+  list-style: none;
+  text-align: center;
+}
+
+.page2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.9rem;
+  cursor: pointer;
+  font-family: "Cairo", sans-serif;
 }
 
 .container {
