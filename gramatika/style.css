@@ -46,22 +46,18 @@ h1 {
   font-size: 20px;
 }
 
-.btnw button {
+.btn {
+  display: flex;
+  flex-direction: row;
   border-color: #d8f3dc;
   border-radius: 10px;
-  /* margin-left: -93em; */
 }
 
-.btnw button:hover {
-  background: #d8f3dc;
-  transform: scale(1.03);
-}
-
-.btnw li {
+.btn li {
   list-style: none;
 }
 
-.btnw a {
+.btn a {
   text-decoration: none;
   color: #2df047;
   font-size: 1.9rem;
@@ -70,7 +66,7 @@ h1 {
   font-family: "Cairo", sans-serif;
 }
 
-.btnw a:hover {
+.btn a:hover {
   color: black;
 }
 
