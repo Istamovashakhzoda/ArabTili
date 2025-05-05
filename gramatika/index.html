@@ -9,7 +9,8 @@
   </head>
   <body>
     <button class="btnw">
-      <a href="../harflar/index.html">Arab tili Harflar</a>
+      <li><a href="../asosiyPage/index.html">Asosiy</a></li>
+      <li><a href="../harflar/index.html">Arab tili Harflar</a></li>
     </button>
     <h1>📘 Arab Tili Grammatikasi</h1>
 
@@ -406,12 +407,495 @@
             D) قَلَمِ
           </button>
         </div>
-
-        <!-- Boshqa mashqlar har bir qoidaga qo‘shiladi... -->
-
-        <!-- Qolgan qoidalar shu formatda davom ettiriladi -->
+        <div class="mb-6">
+          <p class="mb-2 font-medium">3. “الولدُ” — bu qanday ism?</p>
+          <button onclick="checkAnswer(this, 'C')" class="btn-option">
+            A) Nakira
+          </button>
+          <button onclick="checkAnswer(this, 'C')" class="btn-option">
+            B) Fe‘l
+          </button>
+          <button onclick="checkAnswer(this, 'C')" class="btn-option">
+            C) Ma‘rifa
+          </button>
+          <button onclick="checkAnswer(this, 'C')" class="btn-option">
+            D) Harf
+          </button>
+        </div>
+        <div class="mb-6">
+          <p class="mb-2 font-medium">4. “رَجُلٌ” qanday ism?</p>
+          <button onclick="checkAnswer(this, 'A')" class="btn-option">
+            A) Nakira
+          </button>
+          <button onclick="checkAnswer(this, 'A')" class="btn-option">
+            B) Ma‘rifa
+          </button>
+          <button onclick="checkAnswer(this, 'A')" class="btn-option">
+            C) Marfu‘
+          </button>
+          <button onclick="checkAnswer(this, 'A')" class="btn-option">
+            D) Zamir
+          </button>
+        </div>
+        <div class="mb-6">
+          <p class="mb-2 font-medium">5. Ma‘rifa ismni ko‘rsating:</p>
+          <button onclick="checkAnswer(this, 'D')" class="btn-option">
+            A) بَيْتٌ
+          </button>
+          <button onclick="checkAnswer(this, 'D')" class="btn-option">
+            B) قَلَمٌ
+          </button>
+          <button onclick="checkAnswer(this, 'D')" class="btn-option">
+            C) كِتَابٌ
+          </button>
+          <button onclick="checkAnswer(this, 'D')" class="btn-option">
+            D) الْبَيْتُ
+          </button>
+        </div>
+        <div class="mb-6">
+          <p class="mb-2 font-medium">
+            6. “الطالب” so‘zidagi “الـ” nima bildiradi?
+          </p>
+          <button onclick="checkAnswer(this, 'B')" class="btn-option">
+            A) Ko‘plik
+          </button>
+          <button onclick="checkAnswer(this, 'B')" class="btn-option">
+            B) Ma‘rifalik
+          </button>
+          <button onclick="checkAnswer(this, 'B')" class="btn-option">
+            C) Nakiralik
+          </button>
+          <button onclick="checkAnswer(this, 'B')" class="btn-option">
+            D) Mansublik
+          </button>
+        </div>
+        <div class="mb-6">
+          <p class="mb-2 font-medium">
+            7. Quyidagilardan qaysi biri nakira emas?
+          </p>
+          <button onclick="checkAnswer(this, 'C')" class="btn-option">
+            A) كِتَابٌ
+          </button>
+          <button onclick="checkAnswer(this, 'C')" class="btn-option">
+            B) قَلَمٌ
+          </button>
+          <button onclick="checkAnswer(this, 'C')" class="btn-option">
+            C) الْكِتَابُ
+          </button>
+          <button onclick="checkAnswer(this, 'C')" class="btn-option">
+            D) مَسْجِدٌ
+          </button>
+        </div>
       </section>
     </div>
+
+    <!-- mudof -->
+    <button class="accordion">
+      📌 Muzof va Muzof Ilayh (المضاف و المضاف إليه)
+    </button>
+    <div class="panel">
+      <h3 class="text-2xl font-semibold text-green-700 mb-2">
+        🔹 2. Muzof va Muzof Ilayh (المضاف و المضاف إليه)
+      </h3>
+      <p class="mb-4 text-gray-700">
+        <strong>Muzof</strong> — bir ismning ikkinchi ism bilan bog'lanishidir.
+        Muzof — bu qo‘shilgan birinchi ism bo‘lib, ikkinchi ismni ta'riflaydi.
+        Masalan: <span class="text-blue-600">مُعَلِّمٌ</span> (o‘qituvchi).
+        <br /><strong>Muzof ilayh</strong> — muzofga qo‘shilgan ikkinchi ism
+        bo‘lib, birinchi ismga nisbatan ma'lum bir bog‘lanish yoki ilova qiladi.
+        Masalan: <span class="text-blue-600">كِتَابُهُ</span> (uning kitobi).
+      </p>
+      <p class="mb-6 text-gray-700">
+        **Muzof** va **Muzof ilayh** o‘rtasidagi farq: Muzof — o‘zaro bog‘lanish
+        hosil qiladigan ism, Muzof ilayh esa u bilan bog‘langan ism.
+      </p>
+
+      <!-- Misollar -->
+      <h4 class="text-xl font-semibold text-blue-600 mb-2">Misollar:</h4>
+      <ul class="list-disc pl-6 mb-4 text-gray-700">
+        <li>
+          <span class="text-blue-600">المدرسةُ</span> (maktab) — Muzof:
+          <span class="text-blue-600">الـ</span> ta'riflovchi harf; Muzof ilayh
+          bo'ladi.
+        </li>
+        <li>
+          <span class="text-blue-600">كِتَابُهُ</span> (uning kitobi) — Muzof:
+          <span class="text-blue-600">كِتَابٌ</span> (kitob); Muzof ilayh:
+          <span class="text-blue-600">هُ</span> (uning).
+        </li>
+        <li>
+          <span class="text-blue-600">طَاوِلَتُهُ</span> (uning stoli) — Muzof:
+          <span class="text-blue-600">طَاوِلَةٌ</span> (stol); Muzof ilayh:
+          <span class="text-blue-600">هُ</span> (uning).
+        </li>
+        <li>
+          <span class="text-blue-600">مَدْرَسَتُهُ</span> (uning maktabi) —
+          Muzof: <span class="text-blue-600">مَدْرَسَةٌ</span> (maktab); Muzof
+          ilayh: <span class="text-blue-600">هُ</span> (uning).
+        </li>
+      </ul>
+
+      <div class="mb-6">
+        <p class="mb-2 font-medium">
+          1. Quyidagi jumlada "مُعَلِّمٌ" — bu qanday ism?
+        </p>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          A) Muzof
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          B) Muzof ilayh
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          C) Ikkalasi
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          D) Fe‘l
+        </button>
+      </div>
+      <div class="mb-6">
+        <p class="mb-2 font-medium">
+          2. "Kitobim" so‘zidagi "ي" nima bildiradi?
+        </p>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          A) Muzof ilayh
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          B) Muzof
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          C) Zamir
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          D) Harf
+        </button>
+      </div>
+      <div class="mb-6">
+        <p class="mb-2 font-medium">
+          3. “بيتُهُ” degan so‘zdagi "بيت" qaysi qismga kiradi?
+        </p>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          A) Muzof
+        </button>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          B) Muzof ilayh
+        </button>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          C) Ikkinchisi
+        </button>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          D) Ikkalasi
+        </button>
+      </div>
+      <div class="mb-6">
+        <p class="mb-2 font-medium">
+          4. Quyidagi jumladan qaysi biri muzof va muzof ilayhni to‘g‘ri
+          ko‘rsatadi?
+        </p>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          A) جَارُهُ
+        </button>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          B) مَكْتَبُهُ
+        </button>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          C) قَلَمُهُ
+        </button>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          D) مَدْرَسَتُهُ
+        </button>
+      </div>
+      <div class="mb-6">
+        <p class="mb-2 font-medium">
+          5. "مُعَلِّمٌ" so‘zi bilan bog‘langan "الْكِتَابُ" qaysi biri bo‘ladi?
+        </p>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          A) Muzof ilayh
+        </button>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          B) Muzof
+        </button>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          C) Na‘t
+        </button>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          D) Man‘ut
+        </button>
+      </div>
+      <div class="mb-6">
+        <p class="mb-2 font-medium">
+          6. Quyidagilardan qaysi biri muzof va muzof ilayhni to‘g‘ri tashkil
+          qiladi?
+        </p>
+        <button onclick="checkAnswer(this, 'D')" class="btn-option">
+          A) الكتابُ
+        </button>
+        <button onclick="checkAnswer(this, 'D')" class="btn-option">
+          B) جَارُهُ
+        </button>
+        <button onclick="checkAnswer(this, 'D')" class="btn-option">
+          C) القَلَمُ
+        </button>
+        <button onclick="checkAnswer(this, 'D')" class="btn-option">
+          D) مَكْتَبُهُ
+        </button>
+      </div>
+      <div class="mb-6">
+        <p class="mb-2 font-medium">
+          7. “المدرسةُ” so‘zidagi "الـ" nima bildiradi?
+        </p>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          A) Muzof ilayh
+        </button>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          B) Muzof
+        </button>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          C) Ko‘plik
+        </button>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          D) Ma‘rifalik
+        </button>
+      </div>
+    </div>
+    <!-- marfu mansub majrur -->
+    <button class="accordion">
+      📌 Marfu‘, Mansub va Majrur (مرفوع، منصوب، و مجرور)
+    </button>
+    <div class="panel">
+      <h3 class="text-2xl font-semibold text-green-700 mb-2">
+        🔹 3. Marfu‘, Mansub va Majrur (مرفوع، منصوب، و مجرور)
+      </h3>
+      <p class="mb-4 text-gray-700">
+        **Marfu‘** — bu holat ismlar va fe'llarning gapda sub'ekt yoki nomlar
+        sifatida ishlatilishi. Bu holatda ism, fi'l yoki zamir marfu‘
+        hisoblanadi. Misol: <span class="text-blue-600">الرجلُ</span> (erkak).
+        <br /><strong>**Mansub**</strong> — bu holat fe’l yoki ismlar gapda
+        ob'ekt sifatida ishlatiladi. Misol:
+        <span class="text-blue-600">الكتابَ</span> (kitobni). <br /><strong
+          >**Majrur**</strong
+        >
+        — bu holat ismlar gapda ma'lumot beruvchi yoki bog‘lanishli bo‘lib,
+        jumlada "bi" yoki "li" kabi bog‘lovchi so‘zlar bilan ishlatiladi. Misol:
+        <span class="text-blue-600">الكتابِ</span> (kitobda).
+      </p>
+
+      <!-- Misollar -->
+      <h4 class="text-xl font-semibold text-blue-600 mb-2">Misollar:</h4>
+      <ul class="list-disc pl-6 mb-4 text-gray-700">
+        <li>
+          <span class="text-blue-600">الرجلُ</span> (erkak) — Marfu‘: sub'ekt
+          sifatida ishlatilgan.
+        </li>
+        <li>
+          <span class="text-blue-600">الكتابَ</span> (kitobni) — Mansub: ob'ekt
+          sifatida ishlatilgan.
+        </li>
+        <li>
+          <span class="text-blue-600">الكتابِ</span> (kitobda) — Majrur:
+          bog‘langan ismlar.
+        </li>
+      </ul>
+
+      <!-- Savollar -->
+      <div class="mb-6">
+        <p class="mb-2 font-medium">
+          1. Quyidagi jumladan qaysi biri Marfu‘ holatida?
+        </p>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          A) الكتابَ
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          B) الرجلِ
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          C) الرجلُ
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          D) الكتابِ
+        </button>
+      </div>
+      <div class="mb-6">
+        <p class="mb-2 font-medium">
+          2. “Kitobni” degan so‘z qaysi holatda ishlatilgan?
+        </p>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          A) Mansub
+        </button>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          B) Majrur
+        </button>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          C) Marfu‘
+        </button>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          D) Fe‘l
+        </button>
+      </div>
+      <div class="mb-6">
+        <p class="mb-2 font-medium">
+          3. Quyidagi jumlalar ichidan qaysi biri Majrur holatida ishlatilgan?
+        </p>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          A) الرجلُ
+        </button>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          B) الكتابِ
+        </button>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          C) الكتابَ
+        </button>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          D) القَلَمُ
+        </button>
+      </div>
+      <div class="mb-6">
+        <p class="mb-2 font-medium">4. "الكتابَ" so‘zi qanday holatda?</p>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          A) Mansub
+        </button>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          B) Majrur
+        </button>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          C) Marfu‘
+        </button>
+        <button onclick="checkAnswer(this, 'A')" class="btn-option">
+          D) Fe‘l
+        </button>
+      </div>
+      <div class="mb-6">
+        <p class="mb-2 font-medium">
+          5. Quyidagi jumlalar ichidan qaysi biri Marfu‘ holatida ishlatilgan?
+        </p>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          A) القَلَمِ
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          B) الكتابِ
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          C) القَلَمُ
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          D) الرجلِ
+        </button>
+      </div>
+      <div class="mb-6">
+        <p class="mb-2 font-medium">6. "الرجلِ" so‘zi qanday holatda?</p>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          A) Mansub
+        </button>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          B) Majrur
+        </button>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          C) Marfu‘
+        </button>
+        <button onclick="checkAnswer(this, 'B')" class="btn-option">
+          D) Fe‘l
+        </button>
+      </div>
+      <div class="mb-6">
+        <p class="mb-2 font-medium">7. "الكتابُ" so‘zi qanday holatda?</p>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          A) Majrur
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          B) Mansub
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          C) Marfu‘
+        </button>
+        <button onclick="checkAnswer(this, 'C')" class="btn-option">
+          D) Fe‘l
+        </button>
+      </div>
+    </div>
+
+    <!-- erob -->
+    <!-- A‘rob (Ismlar va Fe’llarning Holatlari) -->
+    <button class="accordion">
+      📌 A‘rob — Ismlar va Fe’llarning Holatlari
+    </button>
+    <div class="panel">
+      <section class="p-6 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-4 text-blue-700">
+          📘 A‘rob — Ismlar va Fe’llarning Holatlari
+        </h2>
+        <p class="mb-4 text-gray-700">
+          A‘rob — bu ismlar va fe’llarning grammatik holatlari. Arab tilida
+          ismlar va fe’llar uchta asosiy grammatik holatga ega:
+          <strong>Marfu‘</strong> (yuqori holat), <strong>Mansub</strong> (past
+          holat), va <strong>Majrur</strong> (ko‘ndalang holat).
+        </p>
+
+        <!-- Marfu‘ (مرفوع) -->
+        <h3 class="text-2xl font-semibold text-green-700 mb-2">
+          🔹 1. Marfu‘ (مرفوع) – Yuqori Holat
+        </h3>
+        <p class="mb-4 text-gray-700">
+          Marfu‘ holatdagi so‘zlar ko‘pincha fa‘il (ijrochi), ism, va master
+          sifatida ishlatiladi. Marfu‘ holatdagi so‘zlar damma harakati bilan
+          tugaydi.
+        </p>
+        <div class="mb-6">
+          <p class="mb-2 font-medium">1. Quyidagi so‘zlar qanday holatda?</p>
+          <button onclick="checkAnswer(this, 'A')" class="btn-option">
+            A) **المدرسُ** (al-mudarris-u) – O‘qituvchi
+          </button>
+          <button onclick="checkAnswer(this, 'B')" class="btn-option">
+            B) **الجملُ** (al-jamal-u) – Tuya
+          </button>
+          <button onclick="checkAnswer(this, 'C')" class="btn-option">
+            C) **الولدُ** (al-walad-u) – Bola
+          </button>
+        </div>
+
+        <!-- Mansub (منصوب) -->
+        <h3 class="text-2xl font-semibold text-green-700 mb-2">
+          🔹 2. Mansub (منصوب) – Past Holat
+        </h3>
+        <p class="mb-4 text-gray-700">
+          Mansub holatdagi so‘zlar ko‘pincha maf‘ul (ob'ekt), ism, yoki master
+          sifatida ishlatiladi. Mansub holatdagi so‘zlar fatha harakati bilan
+          tugaydi.
+        </p>
+        <div class="mb-6">
+          <p class="mb-2 font-medium">2. Quyidagi so‘zlar qanday holatda?</p>
+          <button onclick="checkAnswer(this, 'A')" class="btn-option">
+            A) **المدرسَ** (al-mudarris-a) – O‘qituvchini
+          </button>
+          <button onclick="checkAnswer(this, 'B')" class="btn-option">
+            B) **الجملَ** (al-jamal-a) – Tuyani
+          </button>
+          <button onclick="checkAnswer(this, 'C')" class="btn-option">
+            C) **الولدَ** (al-walad-a) – Bolani
+          </button>
+        </div>
+
+        <!-- Majrur (مجرور) -->
+        <h3 class="text-2xl font-semibold text-green-700 mb-2">
+          🔹 3. Majrur (مجرور) – Ko‘ndalang Holat
+        </h3>
+        <p class="mb-4 text-gray-700">
+          Majrur holatdagi so‘zlar ko‘pincha ism, mudof, yoki bog‘langan so‘zlar
+          bo‘ladi. Majrur holatdagi so‘zlar kasra harakati bilan tugaydi.
+        </p>
+        <div class="mb-6">
+          <p class="mb-2 font-medium">3. Quyidagi so‘zlar qanday holatda?</p>
+          <button onclick="checkAnswer(this, 'A')" class="btn-option">
+            A) **المدرسِ** (al-mudarris-i) – O‘qituvchining
+          </button>
+          <button onclick="checkAnswer(this, 'B')" class="btn-option">
+            B) **الجملِ** (al-jamal-i) – Tuyaning
+          </button>
+          <button onclick="checkAnswer(this, 'C')" class="btn-option">
+            C) **الولدِ** (al-walad-i) – Bolaning
+          </button>
+        </div>
+      </section>
+    </div>
+
     <script src="./js.js"></script>
   </body>
 </html>
